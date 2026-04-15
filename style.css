@@ -21,6 +21,7 @@ body {
 /* MENU */
 .menu {
   background: linear-gradient(to right, #2c3e90, #1e5799);
+  background-color:#417aa8;
 }
 
 .menu ul {
@@ -38,6 +39,11 @@ body {
   color: white;
   text-decoration: none;
   font-size: 14px;
+}
+
+.menu ul li a:hover {
+  background-color:#4b88bb;
+  display:block;
 }
 
 /* CONTENT */
