@@ -1,4 +1,4 @@
-/* BODY */
+/* RESET DASAR */
 body {
   background: #f3f3f3;
   color: #333;
@@ -14,10 +14,9 @@ body {
 
 /* HEADER */
 .header {
-  height: 120px;
-  line-height: 120px;
   background: #417aa8;
   color: #fff;
+  padding: 30px 0;
   text-align: center;
 }
 
@@ -51,16 +50,22 @@ body {
 .content {
   width: 90%;
   margin: 20px auto;
-  overflow: hidden;
+}
+
+/* CLEAR FLOAT */
+.content::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 /* KIRI */
 .kiri {
-  width: 68%;
+  width: 65%;
   float: left;
   background: #fff;
   padding: 15px;
-  min-height: 420px;
+  box-sizing: border-box;
 }
 
 /* KANAN */
@@ -69,29 +74,53 @@ body {
   float: right;
   background: #fff;
   padding: 15px;
-  min-height: 420px;
+  box-sizing: border-box;
 }
 
-/* BOX */
+/* BOX BLOG */
 .border {
-  border: 2px solid #4887b9;
-  margin-top: 10px;
-  padding: 15px;
+  border: 1px solid #4887b9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background: #fff;
 }
 
-/* LINK */
+/* BUTTON */
+.btn {
+  padding: 8px 15px;
+  border: none;
+  background: #417aa8;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #2c5f85;
+}
+
+/* SIDEBAR */
+.kanan ul {
+  list-style: none;
+  padding: 0;
+}
+
+.kanan ul li {
+  margin-bottom: 10px;
+}
+
 .undecor {
   text-decoration: none;
+  color: #417aa8;
 }
 
 /* FOOTER */
 .footer {
-  clear: both;
   width: 90%;
   margin: 20px auto;
-  height: 40px;
-  line-height: 40px;
   background: #417aa8;
   color: #fff;
   text-align: center;
+  padding: 15px 0;
 }
