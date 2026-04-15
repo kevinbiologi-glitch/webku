@@ -8,16 +8,15 @@ body {
 
 /* CONTAINER */
 .jarak {
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 
 /* HEADER */
-.header {
+header {
   background: #417aa8;
-  color: #fff;
+  color: white;
   padding: 30px 0;
-  text-align: center;
 }
 
 /* MENU */
