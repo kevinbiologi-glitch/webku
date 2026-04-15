@@ -1,11 +1,12 @@
-/* reset dasar */
+/* BODY */
 body {
+  background: #f3f3f3;
+  color: #333;
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #f5f5f5;
 }
 
-/* container */
+/* CONTAINER */
 .jarak {
   width: 90%;
   margin: auto;
@@ -13,92 +14,84 @@ body {
 
 /* HEADER */
 .header {
-  background: linear-gradient(to right, #2c3e90, #1e5799);
-  color: white;
-  padding: 30px 0;
+  height: 120px;
+  line-height: 120px;
+  background: #417aa8;
+  color: #fff;
+  text-align: center;
 }
 
 /* MENU */
 .menu {
-  background: linear-gradient(to right, #2c3e90, #1e5799);
-  background-color:#417aa8;
+  background: #417aa8;
 }
 
 .menu ul {
   list-style: none;
   margin: 0;
-  padding: 10px 0;
+  padding: 0;
 }
 
 .menu ul li {
   display: inline-block;
-  margin-right: 20px;
 }
 
 .menu ul li a {
-  color: white;
+  display: inline-block;
+  padding: 15px 20px;
+  color: #fff;
   text-decoration: none;
-  font-size: 14px;
 }
 
 .menu ul li a:hover {
-  background-color:#4b88bb;
-  display:block;
+  background-color: #4b88bb;
 }
 
 /* CONTENT */
 .content {
-  margin-top: 20px;
+  width: 90%;
+  margin: 20px auto;
   overflow: hidden;
 }
 
 /* KIRI */
 .kiri {
-  width: 70%;
+  width: 68%;
   float: left;
+  background: #fff;
+  padding: 15px;
+  min-height: 420px;
 }
 
 /* KANAN */
 .kanan {
-  width: 28%;
+  width: 30%;
   float: right;
+  background: #fff;
+  padding: 15px;
+  min-height: 420px;
 }
 
-/* BOX BLOG */
+/* BOX */
 .border {
-  background: white;
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin-bottom: 20px;
+  border: 2px solid #4887b9;
+  margin-top: 10px;
+  padding: 15px;
 }
 
-/* BUTTON */
-.btn {
-  padding: 5px 10px;
-  border: 1px solid #aaa;
-  background: #eee;
-  cursor: pointer;
-}
-
-/* SIDEBAR */
-.kanan ul {
-  list-style: none;
-  padding: 0;
-}
-
-.kanan ul li {
-  margin-bottom: 10px;
-}
-
+/* LINK */
 .undecor {
   text-decoration: none;
-  color: #2c3e90;
 }
 
 /* FOOTER */
 .footer {
   clear: both;
+  width: 90%;
+  margin: 20px auto;
+  height: 40px;
+  line-height: 40px;
+  background: #417aa8;
+  color: #fff;
   text-align: center;
-  padding: 20px;
-  margin-top: 20px;
 }
