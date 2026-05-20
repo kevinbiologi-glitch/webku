@@ -14,6 +14,10 @@ body {
 
 /* HEADER */
 .header {
+  width : 90%;
+  margin:auto;
+  height:120px;
+  line-height:120px;
   background: #417aa8;
   color: white;
   padding: 30px 0;
@@ -52,7 +56,7 @@ body {
 }
 
 /* CLEAR FLOAT */
-.content::after {
+.content: after {
   content: "";
   display: block;
   clear: both;
@@ -60,10 +64,11 @@ body {
 
 /* KIRI */
 .kiri {
-  width: 65%;
+  width: 70%;
   float: left;
   background: #fff;
   padding: 15px;
+  margin:auto;
   box-sizing: border-box;
 }
 
@@ -73,6 +78,7 @@ body {
   float: right;
   background: #fff;
   padding: 15px;
+  margin:auto;
   box-sizing: border-box;
 }
 
